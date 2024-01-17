@@ -1,0 +1,50 @@
+Method;T;Result;Time;Speedup;Efficiency
+average_reduce;1;2,00218e+07;183;1;1
+average_reduce;2;2,00218e+07;95;1,92632;0,963158
+average_reduce;3;2,00218e+07;74;2,47297;0,824324
+average_reduce;4;2,00218e+07;61;3;0,75
+average_reduce;5;2,00218e+07;55;3,32727;0,665455
+average_reduce;6;2,00218e+07;46;3,97826;0,663043
+average_reduce;7;2,00218e+07;42;4,35714;0,622449
+average_reduce;8;2,00218e+07;40;4,575;0,571875
+average_omp_aligned;1;2,00218e+07;231;1;1
+average_omp_aligned;2;2,00218e+07;131;1,76336;0,881679
+average_omp_aligned;3;2,00218e+07;99;2,33333;0,777778
+average_omp_aligned;4;2,00218e+07;90;2,56667;0,641667
+average_omp_aligned;5;2,00218e+07;86;2,68605;0,537209
+average_omp_aligned;6;2,00218e+07;88;2,625;0,4375
+average_omp_aligned;7;2,00218e+07;78;2,96154;0,423077
+average_omp_aligned;8;2,00218e+07;92;2,51087;0,313859
+average_cpp_aligned;1;2,00218e+07;436;1;1
+average_cpp_aligned;2;2,00218e+07;250;1,744;0,872
+average_cpp_aligned;3;2,00218e+07;194;2,24742;0,749141
+average_cpp_aligned;4;2,00218e+07;193;2,25907;0,564767
+average_cpp_aligned;5;2,00218e+07;170;2,56471;0,512941
+average_cpp_aligned;6;2,00218e+07;165;2,64242;0,440404
+average_cpp_aligned;7;2,00218e+07;142;3,07042;0,438632
+average_cpp_aligned;8;2,00218e+07;141;3,0922;0,386525
+average_cpp_mtx_local;1;2,00218e+07;230;1;1
+average_cpp_mtx_local;2;2,00218e+07;104;2,21154;1,10577
+average_cpp_mtx_local;3;2,00218e+07;85;2,70588;0,901961
+average_cpp_mtx_local;4;2,00218e+07;64;3,59375;0,898438
+average_cpp_mtx_local;5;2,00218e+07;56;4,10714;0,821429
+average_cpp_mtx_local;6;2,00218e+07;48;4,79167;0,798611
+average_cpp_mtx_local;7;2,00218e+07;44;5,22727;0,746753
+average_cpp_mtx_local;8;2,00218e+07;38;6,05263;0,756579
+average_cpp_reduction;1;2,00218e+07;207;1;1
+average_cpp_reduction;2;2,00218e+07;98;2,11224;1,05612
+average_cpp_reduction;3;2,00218e+07;78;2,65385;0,884615
+average_cpp_reduction;4;2,00218e+07;64;3,23438;0,808594
+average_cpp_reduction;5;2,00218e+07;56;3,69643;0,739286
+average_cpp_reduction;6;2,00218e+07;53;3,90566;0,650943
+average_cpp_reduction;7;2,00218e+07;50;4,14;0,591429
+average_cpp_reduction;8;2,00218e+07;51;4,05882;0,507353
+Method;T;Result;Time;Speedup;Efficiency
+Randomize Vectors;1;2,00218e+07;852;1;1
+Randomize Vectors;2;2,00218e+07;511;1,66732;0,833659
+Randomize Vectors;3;2,00218e+07;351;2,42735;0,809117
+Randomize Vectors;4;2,00218e+07;316;2,6962;0,674051
+Randomize Vectors;5;2,00218e+07;310;2,74839;0,549677
+Randomize Vectors;6;2,00218e+07;253;3,36759;0,561265
+Randomize Vectors;7;2,00218e+07;235;3,62553;0,517933
+Randomize Vectors;8;2,00218e+07;260;3,27692;0,409615
